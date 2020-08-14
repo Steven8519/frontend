@@ -66,9 +66,7 @@ spec:
   http:
     - match:
         - uri:
-            prefix: frontend
-        - uri:
-            prefix: /api/1.0/users
+            prefix: /
       route:
         - destination:
             port:
