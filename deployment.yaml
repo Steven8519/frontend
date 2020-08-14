@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: devhubsocial
+  name: developer-social
 spec:
   # This defines which pods are going to be represented by this Service
   # The service becomes a network endpoint for either other services
